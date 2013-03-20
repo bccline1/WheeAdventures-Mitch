@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+ <!--Program: Dillsboro - Connect.html 
+   //Programmers: Britt Cline
+   //Date: 12/1/2012
+   //Description: Provides static links to Social Media Sites-->
+
+<html> 
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Dillsboro Places | Mobile</title>
+    <link href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" rel="stylesheet" />
+    <link href="Stylesheets/Main.css" rel="stylesheet" />
+
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="main.js"></script>
+
+    <!--Google Anaylitcs-->
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36666405-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head> 
+<body> 
+    <div data-role="page" id="categories_list">
+	    <div data-role="header">
+            <a href="#" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo.png" id="headerlogo" />
+            <hr />
+	    </div>
+	    <div data-role="content">
+            <ul data-role="listview">
+                <li id="facebook"><a href="http://www.facebook.com/DillsboroNC"><img src="Images/facebook.png" class="ui-li-icon" /><span>Facebook</span></a></li>
+                <li><a href="https://www.twitter.com/DillsboroNC"><img src="Images/twitterbird.png" class="ui-li-icon" /><span>Twitter</span></a></li>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <hr />
+            <div class="shownav togglenav">Show Toolbar</div>
+            <div class=" hidenav togglenav">Hide Toolbar</div> 
+            <div data-role="navbar" class="nav-bar" data-grid="c"> 
+                <ul> 
+                    <li><a href="index.html" rel="external" class="home" data-icon="custom">Home</a></li> 
+                    <li><a href="categories.html" rel="external"  class="directions" data-icon="custom">Directions</a></li> 
+                    <li><a href="poiList.html?qryCatCode=1&qryCatTitle=Promotions" rel="external"  class="promotions" data-icon="custom">Promotions</a></li> 
+                    <li><a href="about.html" rel="external"  class="about" data-icon="custom">About</a></li>
+                </ul> 
+            </div> 
+        </div>
+    </div>
+</body>
+</html>

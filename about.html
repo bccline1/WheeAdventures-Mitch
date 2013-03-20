@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<!--Program: WheeAdventures - about.htm 
+    Author: Mitch Odom
+    Date: 3/6/2013
+    Description: About page with links to related resources and team member credits-->
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Dillsboro Places | Mobile</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="Stylesheets/Main.css" />
+    
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div data-role="page" id="about">
+	    <div data-role="header">
+            <a href="index.html" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo.png" id="headerlogo" />
+            <hr />
+	    </div>
+        <div data-role="content">
+            <div id="title" class="bold">Dillsboro Places Mobile<br />Developed By:</div>
+            <div data-role="collapsible-set" data-content-theme="d">
+               <div data-role="collapsible" data-collapsed="false"><h3>Fall 2012</h3><p><br />Britt Cline<br />Mitch Odom<br />Daniel Keener<br />Scott Richmond<br />Daniel Parris<br /><br />Michael Halpin</p></div>
+               <div data-role="collapsible" data-collapsed="true"><h3>Spring 2012</h3><p><br />Jason Niehoff <br /> Scott Richmond<br />Mitch Odom<br />Tim Heaton</p></div>
+               <div data-role="collapsible" data-collapsed="true"><h3>Fall 2011</h3><p><br />Justin Travis <br /> Scott Coffey <br /> Scott Richmond<br /><br /></p></div>
+               <div data-role="collapsible" data-collapsed="true"><h3>Spring 2011</h3><p><br />Andrew Jeffords <br /> Heath Stewart <br /> Scott Richmond<br /><br /></p></div>
+               <div data-role="collapsible" data-collapsed="true"><h3>Fall 2010</h3><p><br />Brad Mehder <br /> Jimmy Thigpen<br /><br /></p></div>
+           </div>
+           <span class="bold">CIS 465 Professor: </span>Dr. Dan Clapper<br />
+           <a rel="external" href="http://www.wcu.edu/10122.asp">Computer Information Systems</a><br />
+           <a rel="external" href="http://www.wcu.edu/2517.asp">College of Business</a><br />
+           at <a rel="external" href="http://www.wcu.edu">Western Carolina University</a>
+       </div>    
+       <div data-role="footer">
+           <hr />
+           <div class="shownav togglenav">Show Toolbar</div>
+           <div class=" hidenav togglenav">Hide Toolbar</div> 
+           <div data-role="navbar" class="nav-bar" data-grid="c"> 
+               <ul> 
+                   <li><a href="index.html" rel="external" class="home" data-icon="custom">Home</a></li> 
+                   <li><a href="index.html#connect" rel="external"  class="connect" data-icon="custom">Connect</a></li> 
+                   <li><a href="categories.html" rel="external"  class="directions" data-icon="custom">Directions</a></li> 
+                   <li><a href="poiList.html?qryCatCode=1&qryCatTitle=Promotions" rel="external"  class="promotions" data-icon="custom">Promotions</a></li>
+               </ul> 
+           </div> 
+	    </div>
+    </div>
+</body>
+</html>

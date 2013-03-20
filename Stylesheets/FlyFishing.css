@@ -1,0 +1,231 @@
+﻿/*Program: Whee Adventures - Spring 2013 Skin*/
+/*Author: Mitch Odom*/
+/*Date:2/25/2013*/
+/*Description: Controls all client side themes for JQuery Mobile Pages*/
+
+/*GENERAL SHARED THEME STYLES*/
+            * {
+                border:0;
+                text-shadow:none;
+            }
+            .ui-page {
+                background: #FFF1D0;
+                background-size: cover;
+                -webkit-background-size: cover;
+                background-repeat:no-repeat;
+                min-width:320px;
+                padding-top:70px;
+                padding-bottom:100px;
+            }
+            .ui-header {
+                background: url(../images/paperbg.jpg) transparent;
+                background-size:cover;
+                min-width:320px;
+                position:fixed;
+                top:0;
+                left:0;
+                width:100%;
+                z-index:1000;
+                font-family:CM Western Woodblock No2;
+                font-size:xx-large;
+                color:Black;
+                text-align:center;
+        
+            }
+            .ui-header .headerlogo, #headerlogo_2 {
+                margin:0 auto;
+                padding: 13px;
+                max-height:37px;
+                max-width:320px;
+                display:block;
+            }
+            .ui-header .ui-title{
+                color: #D20000;
+                font-size:medium;
+                font-weight:normal;
+                margin:0 5px;
+            }
+            .ui-footer {
+                background: url(../images/paperbg.jpg) transparent;
+                background-size: cover;
+                min-width:320px;
+                position:fixed;
+                bottom:0;
+                left:0;
+                width:100%;
+                z-index:1000;
+            }
+            .ui-btn {
+                color:#ffffff;
+                /* Fallback for web browsers that doesn't support RGBa*/
+	            background: rgb(0,0,0);
+	            /* RGBa with 0.75 opacity*/
+	            background: rgba(0,0,0, 0.7);
+            }
+            .ui-btn:hover {
+                background: rgb(210,0,0);
+                background: rgba(210,0,0,1);
+            }
+            hr {
+                background-color:black;
+                height:5px;
+                margin:0;
+            }
+/*START FLYFISHING PAGE STYLES*/
+            #flyfishing {
+            }
+            #flyfishing .ui-content {
+                background: url(../images/flyfishing.jpg) #FFF1D0;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                min-width: 250px;
+            }
+            #flyfishing .ui-content .ui-controlgroup {
+                padding:65% 0px 0px 0px;
+                text-align:left;
+            }
+            #flyfishing .ui-content .ui-btn {
+                text-align:left;
+            }
+            #flyfishing .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #flyfishing .ui-content span {
+                color:white;
+            }
+            #flyfishing .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            }
+            
+/*START HIKING PAGE STYLES*/
+            #hiking {
+            }
+           
+           
+            #hiking .ui-content .ui-btn {
+                text-align:left;
+            }
+            #hiking .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #hiking .ui-content span {
+                color:white;
+            }
+            #hiking .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            }  
+
+ /*START MOUNTAIN BIKING PAGE STYLES*/
+            #mountainbiking {
+            }
+           
+           
+            #mountainbiking .ui-content .ui-btn {
+                text-align:left;
+            }
+            #mountainbiking .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #mountainbiking .ui-content span {
+                color:white;
+            }
+            #mountainbiking .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            } 
+
+ /*START SNOW SPORTS PAGE STYLES*/
+            #snowsports {
+            }
+           
+           
+            #snowsports .ui-content .ui-btn {
+                text-align:left;
+            }
+            #snowsports .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #snowsports .ui-content span {
+                color:white;
+            }
+            #snowsports .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            }      
+
+/*START WATERFALLS PAGE STYLES*/
+            #waterfalls {
+            }
+           
+           
+            #waterfalls .ui-content .ui-btn {
+                text-align:left;
+            }
+            #waterfalls .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #waterfalls .ui-content span {
+                color:white;
+            }
+            #waterfalls .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            }
+
+/*START WHITEWATER PADDLING PAGE STYLES*/
+            #whitewaterpaddling {
+            }
+           
+           
+            #whitewaterpaddling .ui-content .ui-btn {
+                text-align:left;
+            }
+            #whitewaterpaddling .ui-content .ui-btn .ui-btn-icon { 
+                float: left; 
+                margin-right: 10px; 
+                max-height: 16px; 
+                max-width: 16px; 
+            }
+            #whitewaterpaddling .ui-content span {
+                color:white;
+            }
+            #waterfalls .ui-content span .provider{
+                font-size: small;
+                font-weight: normal;
+            }
+
+/*START HEADER ICON STYLES*/
+            .ui-header #icon-back, .ui-header #icon-placeholder {
+                background:transparent;
+                float:left;
+                margin: 10px 0 0 0;
+                padding:0;
+                overflow:hidden;
+            }
+            .ui-header #icon-map, .ui-header #icon-list, .ui-header #icon-directions {
+                background:transparent;
+                float:right;
+                margin: 10px 0 0 0;
+                padding:0;
+                overflow:hidden;
+            }
+            .ui-header .ui-btn-inner {
+                border:0;
+            }

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<!--Program:WheeAdventures - FlyFishing.htm 
+    Author: Mitch Odom
+    Date: 3/6/2013
+    Description: Fly Fishing page.-->
+<html>
+    <head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>Whee Adventure | Mobile</title>
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" href="Stylesheets/FlyFishing.css" />
+         <link rel="stylesheet" href="Stylesheets/Main.css" />
+        
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="flyfishing">
+	        <div data-role="header">
+            <a href="#" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo2.png" id="headerlogo" />
+            <h1 class="ui-title">Fly Fishing</h1>
+                <hr />
+            </div><!-- /header -->
+            <div data-role="content">
+                <div data-role="controlgroup">
+                    <a href="poiList.html?qryCatCode=1&qryCatTitle=Fly Fishing" rel="external"  data-role="button" data-icon="arrow-r" data-iconpos="right">
+                        <span>Where to Fish</span>
+                    </a>
+                    <a href="#FlyPatterns" rel="external" data-role="button" data-icon="arrow-r" data-iconpos="right" >
+                        <span>Fly Patterns</span>
+                    </a>
+                    <a href="#" rel="external" data-role="button"  data-icon="arrow-r" data-iconpos="right">
+                        <span>What to Catch</span>
+                    </a>
+                    <a href="#LeaveNoTrace" rel="external" data-role="button"  data-icon="arrow-r" data-iconpos="right">
+                        <span>Leave no Trace</span>
+                    </a>
+                    <a href="#" rel="external" data-role="button"  data-icon="arrow-r" data-iconpos="right">
+                        <span>Things to Note</span></span>
+                    </a>
+                 
+                </div><!-- /control group -->
+            </div><!-- /content -->
+        </div><!-- /page -->
+
+        <!-- start of Fly Patterns Page -->
+        <div data-role="page" id="FlyPatterns">
+             <div data-role="header">
+            <a href="#home" data-direction="reverse" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo2.png" id="headerlogo" />
+            <h1 class="ui-title">Fly Patterns</h1>
+                <hr />
+            </div><!-- /header -->
+            <div data-role="content">
+                <p><span class="bold">Dry Flies:</span> Paterns imitating the adult stage of aquatic insects like mayflies, caddis flies, stonefiles, midges or dragon flies.</p>
+                <p class="italic small bold">* Recommended patterns are Adams, Light Cahills, Elk Hair Caddis, and Yellow Stimulators. </p>
+                <p><span class="bold">Streamers:</span> Designed to resemble some form of baitfish or other large aquatic prey. Great flies to use when water levels are high.</p>
+                <p class="italic small bold">* Recommended patterns are the Wolly Bugger, and Muddler Minnow </p>
+                <p><span class="bold">Nymphs:</span> Most trout feeding is below surface wher they forge on Nymphs. Insects drop their eggs on the surface and these drift to
+                 the bottom of streams and river where they stay until hatch and the newly developed nymphs are prime food for hungry trout.</p>
+                <p class="italic small bold">* Recommended patterns are Prince Nymphs, Pheasant Tails, Hare's Ear </p>
+            </div><!-- /content -->
+        </div><!-- / fly patterns page -->
+
+        <!-- start of Leave no Trace Page -->
+        <div data-role="page" id="LeaveNoTrace">
+             <div data-role="header">
+            <a href="#home" data-direction="reverse" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo2.png" id="headerlogo" />
+            <h1 class="ui-title">Leave no Trace</h1>
+                <hr />
+            </div><!-- /header -->
+            <div data-role="content">
+            <p>
+                <ul>
+                    <li>Respect the Environment</li>
+                    <ul>
+                        <li>Properly dispose unwanted fishing line or trash</li> 
+                        <li>Fish entrails and human waste should be buried 6-inches deep in the ground 200 feet from the water</li> 
+                        <li>Pack it in, pack it out.  Pack out everything you bring</li> 
+                    </ul>
+                    <li>Respect the Fish</li>
+                    <ul>
+                        <li>Cut barbs off of hooks to limit damage to the fish</li>
+                        <li>Keep only the fish you need and return otheres back into the water</li>
+                        <li>Limit the time the fish is out of water</li>
+                    </ul>
+                    <li>Respect Others</li>
+                    <ul>
+                        <li>Keep a respectable distance from others recasting on the water</li>
+                        <li>Be aware of designated public and private fishing areas</li>
+                        <li>Travel and fish quietly, not to disturb the fish of others</li>
+                    </ul>
+                </ul>
+           </p>
+           <p class="bold italic">Help provide a great fishing experience to the environment, the fish, and others by following Leave No Trace principles </p>
+            </div><!-- /content -->
+        </div><!-- / fly patterns page -->
+
+    </body>
+</html>

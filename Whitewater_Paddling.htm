@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<!--Program:WheeAdventures -Whitewater_Paddling.htm 
+    Author: Mitch Odom
+    Date: 3/6/2013
+    Description: Whitewater Paddling page-->
+<html>
+ <head>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+	    <title>Whee Adventure | Mobile</title>
+
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+        <link rel="stylesheet" href="Stylesheets/FlyFishing.css" />
+         <link rel="stylesheet" href="Stylesheets/Main.css" />
+        
+        <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="whitewaterpaddling">
+	        <div data-role="header">
+            <a href="#" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo2.png" id="headerlogo" />
+            <h1 class="ui-title">Whitewater Paddling</h1>
+                <hr />
+            </div><!-- /header -->
+            <div data-role="content">
+                <div data-role="controlgroup">
+                    <a href="poiList.html?qryCatCode=6&qryCatTitle=Whitewater Paddling" rel="external"  data-role="button" data-icon="arrow-r" data-iconpos="right">
+                        <span>Where to Paddle</span>
+                    </a>
+                    <a href="#Gear" rel="external" data-role="button" data-icon="arrow-r" data-iconpos="right" >
+                        <span>Gear</span>
+                   
+                    <a href="#LeaveNoTrace" rel="external" data-role="button"  data-icon="arrow-r" data-iconpos="right">
+                        <span>Leave no Trace</span>
+                    </a>
+                   
+                 
+                </div><!-- /control group -->
+            </div><!-- /content -->
+        </div><!-- /page -->
+
+        <!-- start of hiking Tips Page -->
+        <div data-role="page" id="Gear">
+             <div data-role="header">
+            <a href="#home" data-direction="reverse" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo2.png" id="Img2" />
+            <h1 class="ui-title">Gear</h1>
+                
+                <hr />
+            </div><!-- /header -->
+            <div data-role="content">
+                <br />
+                <p>
+                    All paddlers will need a kayak, skirt, helmet, paddle, personal flotation device, 
+                    appropriate layers, and safety equipment prior to a trip.
+                </p>  
+               
+                <h4>WARNING!!</h4>
+                <p>Paddle sports can be very dangerous and physically demanding. <br />
+                    All paddlers should understand that participating in paddle sports may involve <br /> 
+                    serious injury or death. Participants should have proper training and <br />
+                    equipment prior to engaging in paddle sports.</p>
+                
+            </div><!-- /content -->
+        </div><!-- / gear page -->
+
+         <!-- start of Leave no Trace Page -->
+        <div data-role="page" id="LeaveNoTrace">
+             <div data-role="header">
+            <a href="#home" data-direction="reverse" id="icon-back" data-role="button" data-theme="none" data-corners="false" data-shadow="false" rel="external"><img src="images/back.png" alt="back" /></a>
+            <img src="images/logo2.png" id="Img1" />
+            <h1 class="ui-title">Leave no Trace</h1>
+                <hr />
+            </div><!-- /header -->
+            <div data-role="content">
+            <p><span class="bold">A Little Note on Leave No Trace (LNT)</span>
+           </p>
+           <p>  When visiting a river it is important to practice Leave No Trace ethics. Please 
+                don’t litter or damage any of the beautiful surroundings. Remember to plan 
+                ahead and prepare, travel and camp on durable surfaces, leave what you find, 
+                properly dispose of waste, minimize campfire impact, and respect wildlife and 
+                other visitors. Respect landowners and other river locals. Research regulations 
+                are for each area you visit as they may be different.
+          </p>
+           <p class="bold italic">To learn more visit <a href="http://www.lnt.org" target="_blank">www.lnt.org</a> </p>
+            </div><!-- /content -->
+        </div><!-- / leave no trace page -->
+        
+
+    </body>
+</html>
